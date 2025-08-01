@@ -5,9 +5,5 @@ export const formatDate = (isoDate: string) => {
     year: "numeric",
     month: "long",
     day: "numeric",
-    hour: "numeric",
-    minute: "numeric",
-    second: "numeric",
-    hour12: true,
   });
 };
